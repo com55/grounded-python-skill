@@ -24,7 +24,7 @@ Builtins and stdlib (`os`, `sys`, `pathlib`, `json`, etc.) are skipped — only 
 ## Install
 
 ```bash
-npx grounded-python
+npx skills add com55/grounded-python
 ```
 
 Or manually:
