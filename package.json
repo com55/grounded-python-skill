@@ -1,0 +1,25 @@
+{
+  "name": "grounded-python",
+  "version": "1.0.0",
+  "description": "Claude Code skill: verify Python API docs before writing code — no hallucinated signatures",
+  "bin": {
+    "grounded-python": "./install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "evals/",
+    "install.js"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "python",
+    "ai-coding",
+    "context7"
+  ],
+  "author": "com55",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}

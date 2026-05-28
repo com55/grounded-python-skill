@@ -1,0 +1,23 @@
+{
+  "skill_name": "grounded-python",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Write a Python function using pandas to read 'sales.csv', group by 'region', compute mean of 'revenue', and sort descending.",
+      "expected_output": "Claude must look up pandas docs via Context7 (read_csv, groupby, agg/mean, sort_values) before writing any code, then produce correct argument names.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Use method `UserRepository.get_by_email(email)` from `app/repositories/user_repo.py` to fetch a user and update their `last_login` field to the current timestamp.",
+      "expected_output": "Claude must grep for UserRepository in app/repositories/user_repo.py first. If not found, stop and ask the user — never guess the signature.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Write a FastAPI POST /items endpoint accepting a Pydantic model with fields: name (str), price (float), in_stock (bool), then save it to a SQLAlchemy model named Item.",
+      "expected_output": "Claude must look up FastAPI, Pydantic, and SQLAlchemy via Context7 — all three — before writing any code.",
+      "files": []
+    }
+  ]
+}
