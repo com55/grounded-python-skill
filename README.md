@@ -1,4 +1,4 @@
-# grounded-python
+# grounded-python-skill
 
 A [Claude Code](https://claude.ai/code) skill that forces Claude to verify every Python library API before writing code — no more hallucinated function signatures.
 
@@ -24,13 +24,13 @@ Builtins and stdlib (`os`, `sys`, `pathlib`, `json`, etc.) are skipped — only 
 ## Install
 
 ```bash
-npx skills add com55/grounded-python
+npx skills add com55/grounded-python-skill
 ```
 
 Or manually:
 
 ```bash
-git clone https://github.com/com55/grounded-python ~/.claude/skills/grounded-python
+git clone https://github.com/com55/grounded-python-skill ~/.claude/skills/grounded-python
 ```
 
 Then start a new Claude Code session — the skill is active automatically.
